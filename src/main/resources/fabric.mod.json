@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "anothercreaterecipemod",
+  "version": "${version}",
+  "name": "Another Create Recipe Mod",
+  "description": "a few recipes for aikuran",
+  "authors": [
+    "please stop yelling"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+  "license": "MIT",
+  "icon": "assets/anothercreaterecipemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cutecharm.anothercreaterecipemod.AnotherCreateRecipeMod"
+    ]
+  },
+  "mixins": [
+    "anothercreaterecipemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
