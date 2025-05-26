@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "tag": "c:cobblestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:deepslate"
+    }
+  ]
+}
