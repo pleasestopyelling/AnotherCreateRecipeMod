@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:calcite"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "chance": 0.15,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.02,
+      "item": "minecraft:amethyst_shard"
+    }
+  ]
+}
